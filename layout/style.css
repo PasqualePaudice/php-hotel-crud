@@ -1,0 +1,34 @@
+body{
+    padding-top:100px;
+
+}
+
+nav  a img{
+    width: 100px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dati, .int-dati{
+    text-align: center;
+
+}
+
+.dati{
+    height: 50px;
+    line-height: 2;
+    padding: 10px 0;
+}
+
+.dati2{
+    border-right:1px solid grey;
+    border-left:1px solid grey;
+}
+
+.int-dati{
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+
+
+}
