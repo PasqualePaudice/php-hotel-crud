@@ -1,6 +1,5 @@
 body{
     padding-top:100px;
-
 }
 
 nav  a img{
@@ -8,7 +7,9 @@ nav  a img{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+
 }
+
 
 .dati, .int-dati{
     text-align: center;
@@ -22,13 +23,39 @@ nav  a img{
 }
 
 .dati2{
+
     border-right:1px solid grey;
     border-left:1px solid grey;
+
 }
 
 .int-dati{
+
     border-bottom: 1px solid black;
     padding: 5px 10px;
 
 
+}
+
+.box{
+    background: lightgreen;
+
+}
+
+.dettagli-visualizza{
+    padding:5px;
+}
+.box .dettagli-visualizza span{
+    display: block;
+}
+
+.title-visualizza{
+    background: green;
+    height: 40px;
+    line-height: 3;
+    padding-left:5px;
+}
+footer{
+    color: white;
+    background-color: black;
 }

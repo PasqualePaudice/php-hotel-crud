@@ -30,7 +30,7 @@ if ($result && $result->num_rows > 0) {
 
 
             <div class="dati col-sm-4 ">
-                <?php     echo  $row['room_number']; ?>
+                <?php  echo  $row['room_number']; ?>
             </div>
 
             <div class="dati dati2 col-sm-4 ">
@@ -38,13 +38,12 @@ if ($result && $result->num_rows > 0) {
             </div>
 
             <div class="dati col-sm-4">
-                <a class="btn btn-info" href="visualizza.php/?id_stanza=<?php echo $row['id'] ?>"> Visualizza </a>
-                <a class="btn btn-warning" href="visualizza.php/?id_stanza=<?php $row['id'] ?>"> Modifica </a>
-                <a class="btn btn-danger" href="visualizza.php/?id_stanza=<?php $row['id'] ?>"> Cancella </a>
+
+                <a class="btn btn-info" href="visualizza.php?id_stanza=<?php echo $row['id'] ?>"> Visualizza </a>
+                <a class="btn btn-warning" href=""> Modifica </a>
+                <a class="btn btn-danger" href=""> Cancella </a>
+
             </div>
-
-
-
 
 
         <?php
@@ -67,6 +66,3 @@ if ($result && $result->num_rows > 0) {
 
 
 ?>
-
-
-</body>

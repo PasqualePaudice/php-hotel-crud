@@ -41,5 +41,4 @@ function controlla_dati_stanza($numero_stanza, $piano, $letti) {
     }
 }
 
-
 ?>
