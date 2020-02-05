@@ -1,5 +1,6 @@
 body{
     padding-top:100px;
+    padding-bottom: 40px;
 }
 
 nav  a img{
@@ -58,4 +59,19 @@ nav  a img{
 footer{
     color: white;
     background-color: black;
+}
+
+.full{
+    display: block;
+    width: 100%;
+    padding:15px 0 0 0;
+}
+
+.btn-mod{
+    margin:10px 0 0 0;
+}
+
+.h2-su-form{
+    display: block;
+    width: 100%;
 }
