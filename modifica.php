@@ -32,12 +32,12 @@ if ($result && $result->num_rows > 0) {
 
 
         <label class="full" for="letti">Letti</label>
-        <input name="letti" type="text" required placeholder="" value="<?php echo $row['beds'] ?>"><br>
+        <input name="letti" type="text" required value="<?php echo $row['beds'] ?>" ><br>
 
 
 
 
-        <button class="btn-mod btn btn-success" type="submit" >MODIFICA</button>
+        <button class="mod btn-mod btn btn-success" type="submit" >MODIFICA</button>
 
     </form>
 
@@ -54,7 +54,9 @@ if ($result && $result->num_rows > 0) {
     echo ' si è verificato un errore';
 }
 
-if ($_GET['success']){
-    echo "<div>MODIFICA AVVENUTA CON SUCCESSO</div>";
+if ($_GET['success']){?>
+
+    <div class=" text-center bg-success"> MODIFICA AVVENUTA CON SUCCESSO</div>
+    <?php
 }
  ?>

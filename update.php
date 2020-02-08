@@ -8,7 +8,7 @@ $piano= intval($_POST['piano']);
 $id=intval($_POST['id_stanza']);
 
 
-$sql = " UPDATE stanze SET room_number= $stanza , floor=$piano,  beds=$letto WHERE id= $id";
+$sql = "UPDATE stanze SET room_number= $stanza , floor=$piano,  beds=$letto,  updated_at = NOW() WHERE id= $id";
 
 $result = esegui_query($sql);
 

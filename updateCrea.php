@@ -8,8 +8,8 @@ $piano= intval($_POST['piano']);
 
 
 
-$sql = " INSERT INTO stanze (room_number, floor, beds)
-    VALUES ($stanza, $piano, $letto)";
+$sql = " INSERT INTO stanze (room_number, floor, beds,created_at,updated_at)
+    VALUES ($stanza, $piano, $letto, NOW(), NOW())";
 
 
 $result = esegui_query($sql);
