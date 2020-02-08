@@ -15,13 +15,13 @@ if ($result && $result->num_rows > 0) {
 
         <?php if ($_GET['success']=='true') {
 
-            ?><div  class=" text-center bg-success">
+            ?><div  class="op text-center bg-success">
                 OPERAZIONE RIUSCITA CON SUCCESSO
             </div>
             <?php
 
         }elseif($_GET['success']=='false'){?>
-            <div  class=" text-center bg-danger">
+            <div  class=" op text-center bg-danger">
                 OPERAZIONE NON RIUSCITA
             </div>
 

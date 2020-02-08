@@ -31,7 +31,7 @@ if ($result && $result->num_rows > 0) {
         <input name="piano" type="text" required placeholder="" value="<?php echo $row['floor'] ?>">
 
 
-        <label class="full" for="letti">Piano</label>
+        <label class="full" for="letti">Letti</label>
         <input name="letti" type="text" required placeholder="" value="<?php echo $row['beds'] ?>"><br>
 
 
