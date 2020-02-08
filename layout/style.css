@@ -75,3 +75,40 @@ footer{
     display: block;
     width: 100%;
 }
+
+
+
+.form-inline{
+ display: inline-block;
+}
+
+#conf{
+    margin-top:10px;
+}
+
+#conf p{
+    display: inline-block;
+}
+
+.crea a,.crea p {
+    display: inline-flex;
+}
+
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+.crea{
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.crea h3{
+    padding:0;
+    margin:0;
+}
